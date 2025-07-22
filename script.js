@@ -24,7 +24,6 @@ totalCell.colSpan = 2; // if the table has 2 columns: item name and price
 // 5. Append cell to row, and row to table
 totalRow.appendChild(totalCell);
 table.appendChild(totalRow);
-
 };
 
 getSumBtn.addEventListener("click", getSum);
